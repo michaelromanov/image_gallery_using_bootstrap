@@ -5,11 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/fe3f2c8121.js" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
   <title>Image Gallery</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
@@ -18,7 +20,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="#" class="navbar-brand">IMGS</a>
+        <a href="#" class="navbar-brand control"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>IMGS</a>
       </div>
       <div class="collapse navbar-collapse" id="bs-nav-demo">
         <ul class="navbar-nav mr-auto">
@@ -27,16 +29,16 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Login</a></li>
+            <li><a href="#"> Login</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container">
+  <div class="container jumbo">
     <div class="jumbotron">
-      <h1>The Image Gallery</h1>
-      <p>A bunch of beautiful images I did not take</p>
+      <h1><i class="fa fa-hand-peace-o"></i> The Image Gallery</h1>
+      <p>A bunch of beautiful images I did not take!</p>
     </div>
 
     <div class="row">
